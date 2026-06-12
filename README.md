@@ -74,39 +74,51 @@ The **Laravel Smart Health System (SHS)** is a complete web-based healthcare man
 ### 👑 Admin — Manage Doctors
 <img width="1920" height="918" alt="Image" src="https://github.com/user-attachments/assets/40a33766-a9ef-407b-b4f9-275feb423e7b" />
 
+---
 ### 👑 Admin — Appointments (Approve / Reject)
 <img width="1920" height="912" alt="Image" src="https://github.com/user-attachments/assets/ca1ebb1e-f5eb-4926-a690-8d66c65c6636" />
 
+---
 ### 👨‍⚕️ Doctor Dashboard
 <img width="1920" height="918" alt="Image" src="https://github.com/user-attachments/assets/3c3f17ad-4125-4615-8830-0f89b6afa3d0" />
 
+---
 ### 👨‍⚕️ Doctor — Write Prescription
 <img width="1920" height="917" alt="Image" src="https://github.com/user-attachments/assets/1dc80a6e-3e32-48fa-b061-12698d4686d4" />
 
+---
 ### 👨‍⚕️ Doctor — Edit Prescription
 <img width="1920" height="915" alt="Image" src="https://github.com/user-attachments/assets/eff6956f-29bd-4fe1-8e77-66d2fe592fa9" />
 
+---
 ### 👨‍⚕️ Doctor — Edit Profile
 <img width="1917" height="917" alt="Image" src="https://github.com/user-attachments/assets/7b0542d8-d226-4661-b0dc-4a316035174c" />
 
+---
 ### 🧑‍💼 Patient Register
 <img width="1902" height="916" alt="Image" src="https://github.com/user-attachments/assets/9bf74d1a-ac04-412d-8176-1d7f41637c5a" />
 
+---
 ### 🧑‍💼 Patient Dashboard
 <img width="1900" height="922" alt="Image" src="https://github.com/user-attachments/assets/f0eea3ca-ee01-4dac-bd03-9190c2126c6c" />
 
+---
 ### 🧑‍💼 Patient — Book Appointment
 <img width="1920" height="922" alt="Image" src="https://github.com/user-attachments/assets/f91df895-6788-46e0-a3e6-c0e3a60757d4" />
 
+---
 ### 🧑‍💼 Patient — View Prescriptions
 <img width="1297" height="912" alt="Image" src="https://github.com/user-attachments/assets/09e530a9-b8d1-42ff-b3c4-3cb006a08df6" />
 
+---
 ### 🧑‍💼 Patient — Edit Appointment
 <img width="1920" height="920" alt="Image" src="https://github.com/user-attachments/assets/13f92257-b68b-4650-9c7f-2e41402e94f5" />
 
+---
 ### 🤖 AI Symptom Checker
 <img width="1920" height="917" alt="Image" src="https://github.com/user-attachments/assets/467c8ecd-4e60-4e92-b066-d7a96624f063" />
 
+---
 ### 🤖 Update Profile
 <img width="1907" height="958" alt="Image" src="https://github.com/user-attachments/assets/30362e0e-e5b2-4069-adfb-7de2974abdc8" />
 
