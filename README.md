@@ -65,10 +65,12 @@ The **Laravel Smart Health System (SHS)** is a complete web-based healthcare man
 
 ### 🏠 Login Page
 <img width="1896" height="923" alt="Image" src="https://github.com/user-attachments/assets/1dbe4483-fe97-4f54-b45e-e864681fd559" />
-##
+
+---
 ### 👑 Admin Dashboard
 <img width="1918" height="915" alt="Image" src="https://github.com/user-attachments/assets/cae38a22-1b8e-48ca-8ac1-553efde5301c" />
 
+---
 ### 👑 Admin — Manage Doctors
 <img width="1920" height="918" alt="Image" src="https://github.com/user-attachments/assets/40a33766-a9ef-407b-b4f9-275feb423e7b" />
 
