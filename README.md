@@ -196,7 +196,7 @@ Update your `.env` file:
 
 ```env
 DB_CONNECTION=sqlite
-GROK_API_KEY=xai-your-api-key-here
+GROK_API_KEY=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
 ```
 
 ### Step 4 — Generate App Key & Run Migrations
@@ -221,7 +221,7 @@ php artisan serve
 Visit 👉 **http://127.0.0.1:8000**
 
 > **Default Admin Login:**
-> Email: `admin@shs.com` | Password: `password`
+> Email: `admin@portal.com` | Password: `admin123`
 
 ---
 
@@ -316,7 +316,7 @@ All interactions are saved in the `ai_interactions` table for history.
 
 **Setup:**
 ```env
-GROK_API_KEY=xai-xxxxxxxxxxxxxxxx
+GROK_API_KEY=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
 ```
 
 Get your API key at 👉 [console.x.ai](https://console.x.ai)
