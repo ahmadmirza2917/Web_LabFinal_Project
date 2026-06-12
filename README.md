@@ -193,20 +193,14 @@ The project strictly follows **MVC (Model–View–Controller)** architecture:
 
 > **Prerequisites:** PHP 8.2, Composer, Git
 
-### Step 1 — Clone Repository
 
-```bash
-git clone https://github.com/ahmadmirza2917/SHS.git
-cd SHS
-```
-
-### Step 2 — Install PHP Dependencies
+### Step 1 — Install PHP Dependencies
 
 ```bash
 composer install
 ```
 
-### Step 3 — Environment Setup
+### Step 2 — Environment Setup
 
 ```bash
 cp .env.example .env
@@ -219,20 +213,20 @@ DB_CONNECTION=sqlite
 GROK_API_KEY=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
 ```
 
-### Step 4 — Generate App Key & Run Migrations
+### Step 3 — Generate App Key & Run Migrations
 
 ```bash
 php artisan key:generate
 php artisan migrate
 ```
 
-### Step 5 — Seed the Database (creates Admin account)
+### Step 4 — Seed the Database (creates Admin account)
 
 ```bash
 php artisan db:seed
 ```
 
-### Step 6 — Start Development Server
+### Step 5 — Start Development Server
 
 ```bash
 php artisan serve
@@ -339,7 +333,7 @@ All interactions are saved in the `ai_interactions` table for history.
 GROK_API_KEY=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
 ```
 
-Get your API key at 👉 [console.x.ai](https://console.x.ai)
+API key at 👉 [console.x.ai](https://console.x.ai)
 
 ---
 
@@ -454,7 +448,7 @@ Get your API key at 👉 [console.x.ai](https://console.x.ai)
 ## 🔗 Repository
 
 ```bash
-git clone https://github.com/ahmadmirza2917/SHS.git
+git clone 
 ```
 
 ---
