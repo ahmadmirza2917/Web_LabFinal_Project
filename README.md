@@ -63,7 +63,7 @@ The **Laravel Smart Health System (SHS)** is a complete web-based healthcare man
 
 ## 📸 Screenshots
 
-### 🏠 Login Page
+## 🏠 Login Page
 <img width="1896" height="923" alt="Image" src="https://github.com/user-attachments/assets/1dbe4483-fe97-4f54-b45e-e864681fd559" />
 
 ### 👑 Admin Dashboard
