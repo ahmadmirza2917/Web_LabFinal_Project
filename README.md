@@ -87,23 +87,26 @@ The **Laravel Smart Health System (SHS)** is a complete web-based healthcare man
 ### 👨‍⚕️ Doctor — Edit Profile
 <img width="1917" height="917" alt="Image" src="https://github.com/user-attachments/assets/7b0542d8-d226-4661-b0dc-4a316035174c" />
 
+### 🧑‍💼 Patient Register
+<img width="1902" height="916" alt="Image" src="https://github.com/user-attachments/assets/9bf74d1a-ac04-412d-8176-1d7f41637c5a" />
+
 ### 🧑‍💼 Patient Dashboard
-<!-- Add screenshot: patient dashboard -->
+<img width="1900" height="922" alt="Image" src="https://github.com/user-attachments/assets/f0eea3ca-ee01-4dac-bd03-9190c2126c6c" />
 
 ### 🧑‍💼 Patient — Book Appointment
-<!-- Add screenshot: book appointment -->
+<img width="1920" height="922" alt="Image" src="https://github.com/user-attachments/assets/f91df895-6788-46e0-a3e6-c0e3a60757d4" />
 
 ### 🧑‍💼 Patient — View Prescriptions
-<!-- Add screenshot: patient prescriptions -->
+<img width="1297" height="912" alt="Image" src="https://github.com/user-attachments/assets/09e530a9-b8d1-42ff-b3c4-3cb006a08df6" />
+
+### 🧑‍💼 Patient — Edit Appointment
+<img width="1920" height="920" alt="Image" src="https://github.com/user-attachments/assets/13f92257-b68b-4650-9c7f-2e41402e94f5" />
 
 ### 🤖 AI Symptom Checker
-<!-- Add screenshot: symptom checker -->
+<img width="1920" height="917" alt="Image" src="https://github.com/user-attachments/assets/467c8ecd-4e60-4e92-b066-d7a96624f063" />
 
-### 🤖 AI Health Chatbot
-<!-- Add screenshot: chatbot -->
-
-### 🤖 AI Health Risk Assessor
-<!-- Add screenshot: health risk -->
+### 🤖 Update Profile
+<img width="1907" height="958" alt="Image" src="https://github.com/user-attachments/assets/30362e0e-e5b2-4069-adfb-7de2974abdc8" />
 
 ---
 
