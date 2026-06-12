@@ -64,25 +64,28 @@ The **Laravel Smart Health System (SHS)** is a complete web-based healthcare man
 ## 📸 Screenshots
 
 ### 🏠 Login Page
-<!-- Add screenshot: login page -->
+<img width="1896" height="923" alt="Image" src="https://github.com/user-attachments/assets/1dbe4483-fe97-4f54-b45e-e864681fd559" />
 
 ### 👑 Admin Dashboard
-<!-- Add screenshot: admin dashboard -->
+<img width="1918" height="915" alt="Image" src="https://github.com/user-attachments/assets/cae38a22-1b8e-48ca-8ac1-553efde5301c" />
 
 ### 👑 Admin — Manage Doctors
-<!-- Add screenshot: doctor list -->
+<img width="1920" height="918" alt="Image" src="https://github.com/user-attachments/assets/40a33766-a9ef-407b-b4f9-275feb423e7b" />
 
 ### 👑 Admin — Appointments (Approve / Reject)
-<!-- Add screenshot: admin appointments -->
+<img width="1920" height="912" alt="Image" src="https://github.com/user-attachments/assets/ca1ebb1e-f5eb-4926-a690-8d66c65c6636" />
 
 ### 👨‍⚕️ Doctor Dashboard
-<!-- Add screenshot: doctor dashboard -->
+<img width="1920" height="918" alt="Image" src="https://github.com/user-attachments/assets/3c3f17ad-4125-4615-8830-0f89b6afa3d0" />
 
 ### 👨‍⚕️ Doctor — Write Prescription
-<!-- Add screenshot: prescription create -->
+<img width="1920" height="917" alt="Image" src="https://github.com/user-attachments/assets/1dc80a6e-3e32-48fa-b061-12698d4686d4" />
 
 ### 👨‍⚕️ Doctor — Edit Prescription
-<!-- Add screenshot: prescription edit -->
+<img width="1920" height="915" alt="Image" src="https://github.com/user-attachments/assets/eff6956f-29bd-4fe1-8e77-66d2fe592fa9" />
+
+### 👨‍⚕️ Doctor — Edit Profile
+<img width="1917" height="917" alt="Image" src="https://github.com/user-attachments/assets/7b0542d8-d226-4661-b0dc-4a316035174c" />
 
 ### 🧑‍💼 Patient Dashboard
 <!-- Add screenshot: patient dashboard -->
