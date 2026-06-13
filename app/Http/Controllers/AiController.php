@@ -8,26 +8,35 @@ use Illuminate\Support\Facades\Http;
 
 class AiController extends Controller {
 
-    private function callGrok(string $prompt): string {
-        $apiKey = config('services.grok.key');
+    private function callGemini(string $prompt): string
+{
+    $apiKey = env('GEMINI_API_KEY');
 
-        $response = Http::withHeaders([
-            'Authorization' => 'Bearer ' . $apiKey,
-            'Content-Type' => 'application/json',
-        ])->post('https://api.x.ai/v1/chat/completions', [
-            'model' => 'grok-3-mini',
-            'messages' => [
-                ['role' => 'user', 'content' => $prompt]
-            ],
-            'max_tokens' => 1024,
-        ]);
+    $response = Http::post(
+        'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key='.$apiKey,
+        [
+            'contents' => [
+                [
+                    'parts' => [
+                        [
+                            'text' => $prompt
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    );
 
-        if ($response->successful()) {
-            return $response->json('choices.0.message.content') ?? 'Unable to get response.';
-        }
+    if ($response->successful()) {
+    return $response->json('candidates.0.content.parts.0.text')
+        ?? 'No response';
+}
 
-        return 'AI service is temporarily unavailable. Please try again later.';
-    }
+dd(
+    $response->status(),
+    $response->body()
+);
+}
 
     private function saveInteraction(string $type, string $input, string $response): void {
         AiInteraction::create([
@@ -53,7 +62,7 @@ class AiController extends Controller {
         4. Warning signs to watch for
         Please keep the response clear, simple, and in bullet points. Add disclaimer that this is for informational purposes only.";
 
-        $result = $this->callGrok($prompt);
+       $result = $this->callGemini($prompt);
         $this->saveInteraction('symptom_checker', $request->symptoms, $result);
 
         return back()->with(['ai_result' => $result, 'user_input' => $request->symptoms]);
@@ -70,7 +79,7 @@ class AiController extends Controller {
         Answer the following health-related question in a friendly, clear manner: {$request->message}
         Keep response concise and add a note that serious concerns should be discussed with a real doctor.";
 
-        $result = $this->callGrok($prompt);
+        $result = $this->callGemini($prompt);
         $this->saveInteraction('chatbot', $request->message, $result);
 
         return response()->json(['response' => $result]);
@@ -101,7 +110,7 @@ class AiController extends Controller {
         4. Which type of doctor to consult
         Keep it clear and simple. Add disclaimer this is informational only.";
 
-        $result = $this->callGrok($prompt);
+        $result = $this->callGemini($prompt);
         $this->saveInteraction('health_risk', json_encode($request->only('age','weight','blood_pressure','blood_sugar')), $result);
 
         return back()->with(['ai_result' => $result]);
@@ -122,7 +131,7 @@ class AiController extends Controller {
         4. Any important precautions
         Keep it very simple and easy to understand.";
 
-        $result = $this->callGrok($prompt);
+        $result = $this->callGemini($prompt);
         $this->saveInteraction('prescription_explain', "Prescription #{$id}", $result);
 
         return response()->json(['explanation' => $result]);
