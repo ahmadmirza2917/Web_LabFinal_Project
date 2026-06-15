@@ -50,7 +50,7 @@
 
 The **Laravel Smart Health System (SHS)** is a complete web-based healthcare management application built with the **Laravel PHP Framework** following **MVC architecture**.
 
-> 🆕 **Key Highlight:** Custom role-based authentication for Admin, Doctor & Patient + Grok AI-powered health assistant with 4 features.
+> 🆕 **Key Highlight:** Custom role-based authentication for Admin, Doctor & Patient + Gemini AI-powered health assistant with 4 features.
 
 **Core capabilities:**
 
