@@ -134,7 +134,7 @@ The **Laravel Smart Health System (SHS)** is a complete web-based healthcare man
 | PO-3 | Enable patients to book appointments, view prescriptions, and use AI health tools |
 | PO-4 | Provide Admin portal for doctor account management and appointment approval |
 | PO-5 | Follow clean MVC conventions with RESTful routing and Eloquent ORM |
-| PO-6 | Integrate Grok AI API for real-time health assistance features |
+| PO-6 | Integrate Gemini AI API for real-time health assistance features |
 
 ---
 
@@ -168,7 +168,7 @@ The **Laravel Smart Health System (SHS)** is a complete web-based healthcare man
 | SQLite | Built-in | Lightweight Database |
 | Bootstrap | 5.x | Frontend Responsive UI |
 | Font Awesome | 6.x | Icons throughout all portals |
-| Grok API (xAI) | v1 | AI engine for health assistant features |
+| Gemin API | v1 | AI engine for health assistant features |
 | Blade | Built-in | Laravel Templating Engine |
 | Composer | Latest | PHP Dependency Manager |
 | Git & GitHub | Latest | Version Control |
@@ -211,7 +211,7 @@ Update your `.env` file:
 
 ```env
 DB_CONNECTION=sqlite
-GROK_API_KEY=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
+Gemini_API_KEY
 ```
 
 ### Step 3 — Generate App Key & Run Migrations
@@ -236,7 +236,7 @@ php artisan serve
 Visit 👉 **http://127.0.0.1:8000**
 
 > **Default Admin Login:**
-> Email: `admin@portal.com` | Password: `admin123`
+> Email: `admin@smarthealth.com` | Password: `admin123`
 
 ---
 
@@ -330,13 +330,6 @@ Powered by **Grok API (xAI)** — 4 features available to all patients.
 All interactions are saved in the `ai_interactions` table for history.
 
 **Setup:**
-```env
-GROK_API_KEY=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
-```
-
-API key at 👉 [console.x.ai](https://console.x.ai)
-
----
 
 ## 🧠 Core Functionalities
 
