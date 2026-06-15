@@ -17,13 +17,15 @@ COPY . .
 # Install PHP dependencies
 RUN composer install --no-dev --optimize-autoloader
 
-# Cache Laravel config
-RUN php artisan config:cache \
-    && php artisan route:cache \
-    && php artisan view:cache
+# Set storage permissions
+RUN chmod -R 775 storage bootstrap/cache
 
 # Expose port
 EXPOSE 8000
 
-# Start Laravel
-CMD php artisan migrate --force && php artisan serve --host=0.0.0.0 --port=$PORT
+# Start Laravel (caching moved here so .env is available at runtime)
+CMD php artisan config:cache && \
+    php artisan route:cache && \
+    php artisan view:cache && \
+    php artisan migrate --force && \
+    php artisan serve --host=0.0.0.0 --port=${PORT:-8000}
